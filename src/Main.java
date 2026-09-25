@@ -1,6 +1,15 @@
-/* The isBadVersion API is defined in the parent class VersionControl.
-      boolean isBadVersion(int version); */
+// Заглушка для локальной работы и компиляции в IntelliJ IDEA
+class VersionControl {
+    // В LeetCode этот метод реализован на стороне платформы
+    boolean isBadVersion(int version) {
+        return false;
+    }
+}
 
+/*
+ * Решение для LeetCode: 278. First Bad Version
+ * Класс Solution наследует VersionControl и использует API isBadVersion.
+ */
 public class Solution extends VersionControl {
     public int firstBadVersion(int n) {
         int left = 1;
